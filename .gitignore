@@ -1,6 +1,9 @@
 project/target/
 target/
+gradle/
 .idea/
 .classpath
 .project
 *.iml
+*.ipr
+*.iws
