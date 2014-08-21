@@ -67,6 +67,7 @@ class MessageSender {
         transport.send messages, { msg ->
             //potentially expensive operation
             println "[${Thread.currentThread().name}] sending message: ${msg.body}"
+            sleep(500)
         }
     }
 }
